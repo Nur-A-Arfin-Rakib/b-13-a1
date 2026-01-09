@@ -142,3 +142,53 @@ nav ul {
         gap: 10px;
     }
 }
+.problems {
+    padding: 6rem 0;
+    text-align: center;
+    background: white;
+}
+
+.problems h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.problems p {
+    font-size: 1.2rem;
+    color: #64748b;
+    margin-bottom: 4rem;
+}
+
+.problems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.problem-card {
+    padding: 2rem;
+    border-radius: 16px;
+    background: #f9fafb;
+    transition: transform 0.3s;
+}
+
+.problem-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 1.5rem;
+    background: #fee2e2;          
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
